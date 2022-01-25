@@ -23,8 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnTeisenda = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtKilomeetrid = New System.Windows.Forms.TextBox()
+        Me.txtMillid = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -38,20 +38,20 @@ Partial Class Form1
         Me.btnTeisenda.Text = "Teisenda millideks"
         Me.btnTeisenda.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtKilomeetrid
         '
-        Me.TextBox1.Location = New System.Drawing.Point(270, 164)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(245, 26)
-        Me.TextBox1.TabIndex = 1
+        Me.txtKilomeetrid.Location = New System.Drawing.Point(270, 164)
+        Me.txtKilomeetrid.Name = "txtKilomeetrid"
+        Me.txtKilomeetrid.Size = New System.Drawing.Size(245, 26)
+        Me.txtKilomeetrid.TabIndex = 1
         '
-        'TextBox2
+        'txtMillid
         '
-        Me.TextBox2.Location = New System.Drawing.Point(270, 268)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(245, 26)
-        Me.TextBox2.TabIndex = 2
+        Me.txtMillid.Location = New System.Drawing.Point(270, 268)
+        Me.txtMillid.Name = "txtMillid"
+        Me.txtMillid.ReadOnly = True
+        Me.txtMillid.Size = New System.Drawing.Size(245, 26)
+        Me.txtMillid.TabIndex = 2
         '
         'Label1
         '
@@ -78,8 +78,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtMillid)
+        Me.Controls.Add(Me.txtKilomeetrid)
         Me.Controls.Add(Me.btnTeisenda)
         Me.Name = "Form1"
         Me.Text = "Esimene Praktikum"
@@ -89,8 +89,8 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents btnTeisenda As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtKilomeetrid As TextBox
+    Friend WithEvents txtMillid As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
 End Class
